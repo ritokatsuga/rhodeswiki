@@ -1,0 +1,2776 @@
+[!-- TEMPLAT UNTUK: OPERATOR --]
+
+[!-- SKIP KE "AWAL MULA" --]
+
+[[module css]]
+.kotak-skin {
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+text-align:center;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.kanan {
+float:right;
+width: 300px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+background-color: #434343;
+color: #F3F3F3;
+font-size: 90%;
+}
+
+.skin-img {
+position:absolute;
+}
+
+.info-kiri{
+width: 35%;
+border: 1px solid #fff7;
+padding: 5px;
+}
+
+.info-kanan{
+border: 1px solid #fff7;
+padding: 5px;
+}
+
+.info-logo{
+border: 1px solid #fff7;
+padding: 5px;
+width: 50%;
+}
+
+.kotak-range{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.tabel-range{
+width: auto;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+background-color: #434343;
+color: #F3F3F3;
+width: 100%;
+border-collapse: collapse;
+}
+
+.range-header{
+text-align:center;
+font-weight: bold;
+border-radius: 5px;
+background-color: #6e6e6e;
+padding: 5px 5px 5px 5px;
+border: 1px solid #434343;
+}
+
+.range-isi{
+padding: 5px 5px 5px 5px;
+}
+
+.kotak-atribut{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+text-align:center;
+background-color: #434343;
+color: #F3F3F3;
+font-size: 90%;
+}
+
+.atribut-kiri{
+width: 20%;
+padding: 5px;
+font-weight: bold;
+vertical-align:center;
+text-align:center;
+background-color: #6e6e6e;
+border-radius: 5px;
+}
+
+.atribut-isi{
+width: 16%;
+padding: 5px;
+vertical-align:center;
+text-align:center;
+}
+
+.atribut-header{
+background-color: #6e6e6e;
+width: 16%;
+padding: 5px;
+font-weight: bold;
+vertical-align:center;
+text-align:center;
+border-radius: 5px;
+}
+
+.kotak-potensi{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+text-align:center;
+background-color: #434343;
+color: #F3F3F3;
+font-size: 90%;
+}
+
+.potensi-kiri{
+background-color: #6e6e6e;
+width: 20%;
+padding: 5px;
+font-weight: bold;
+vertical-align:center;
+text-align:left;
+border-radius: 5px;
+}
+
+.potensi-isi{
+width: 80%;
+padding: 5px;
+vertical-align:center;
+text-align:left;
+}
+
+.kotak-promosi{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+text-align:center;
+background-color: #434343;
+color: #F3F3F3;
+font-size: 90%;
+}
+
+.promosi-kiri{
+padding: 5px;
+vertical-align:top;
+text-align:left;
+padding: 10px 10px 10px 10px;
+}
+
+.promosi-kanan{
+padding: 5px;
+vertical-align:top;
+text-align:left;
+padding: 10px 10px 10px 10px;
+}
+
+.promosi-header-kiri{
+background-color: #6e6e6e;
+padding: 10px 10px 10px 10px;
+width: 50%;
+padding: 5px;
+font-weight: bold;
+vertical-align:top;
+text-align:center;
+border-radius: 5px;
+margin: 5px;
+border: 1px solid #434343;
+}
+
+.promosi-header-kanan{
+background-color: #6e6e6e;
+padding: 10px 10px 10px 10px;
+padding: 5px;
+font-weight: bold;
+vertical-align:top;
+text-align:center;
+border-radius: 5px;
+border: 1px solid #434343;
+}
+
+.kotak-talenta{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.talenta-isi{
+background-color: #6e6e6e;
+font-size: 90%;
+padding: 10px 10px 10px 10px;
+border-radius: 5px;
+}
+
+.kotak-skill-atas{
+width: 800px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.skill-header-gambar{
+width: 10%;
+padding: 5px;
+vertical-align:center;
+text-align:center;
+}
+
+.skill-header-nama{
+width: 50%;
+padding: 5px;
+font-weight: bold;
+vertical-align:center;
+text-align:center;
+font-size: 100%;
+}
+
+.skill-header-sifat{
+width: 40%;
+padding: 5px;
+vertical-align:center;
+text-align:center;
+line-height: 250%;
+}
+
+.skill-sifat-abu{
+width: auto;
+padding: 5px;
+vertical-align:center;
+text-align:center;
+border: 2px solid #d3d3d3;
+border-radius: 5px;
+font-family:'Source Code Pro', monospace;
+font-size: 80%;
+}
+
+.skill-sifat-hijau{
+width: auto;
+padding: 5px;
+vertical-align:center;
+text-align:center;
+border: 2px solid #90ee90;
+border-radius: 5px;
+font-family:'Source Code Pro', monospace;
+font-size: 80%;
+}
+
+.kotak-skill-tabel{
+width: 800px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+}
+
+
+.skill-tabel{
+vertical-align:center;
+text-align:center;
+}
+
+.skill-kiri{
+width: 10%;
+padding: 5px;
+font-weight: bold;
+background-color: #434343;
+color: #F3F3F3;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+vertical-align:center;
+text-align:center;
+}
+
+.skill-isi-efek{
+width: 50%;
+padding: 5px;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+vertical-align:center;
+text-align:center;
+}
+
+.skill-isi-rinci{
+padding: 5px;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+vertical-align:center;
+text-align:center;
+}
+
+.skill-header{
+height: 32px;
+padding: 5px;
+font-weight: bold;
+background-color: #434343;
+color: #F3F3F3;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+vertical-align:center;
+text-align:center;
+}
+
+.kotak-skillbase{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.skillbase-isi{
+background-color: #6e6e6e;
+font-size: 90%;
+padding: 10px 10px 10px 10px;
+border-radius: 5px;
+}
+
+.kotak-voice{
+width: 1000px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+}
+
+.voice-tabel{
+vertical-align:center;
+text-align:center;
+}
+
+.voice-kiri{
+width: 10%;
+padding: 5px;
+font-weight: bold;
+background-color: #434343;
+color: #F3F3F3;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+border: 1px solid #d3d3d3;
+}
+
+.voice-tengah{
+width: 57%;
+padding: 5px;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+border: 1px solid #d3d3d3;
+}
+
+.voice-kanan{
+width: 33%;
+padding: 5px;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+border: 1px solid #d3d3d3;
+}
+
+.kotak-op-records{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.kecil-op-records{
+font-size: 80%;
+}
+
+.kotak-sim-paradoks{
+width: 500px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #434343;
+color: #F3F3F3;
+}
+
+.judul-sim-paradoks{
+background-color: #6e6e6e;
+border-radius: 5px;
+padding: 3px 10px 5px 10px;
+}
+
+.judul-sim-paradoks-id{
+font-size: 100%;
+font-weight: bold;
+}
+
+.judul-sim-paradoks-cn{
+font-size: 100%;
+font-style: italic;
+}
+
+.kecil-sim-paradoks{
+font-size: 80%;
+}
+
+[[/module]]
+
+[!-- AWAL MULA --]
+
+[[div class="kanan"]]
+
+	[!-- gambar dan nama --]
+
+	[[image https://ritokatsuga.github.io/rwi/devtemp/char_145_prove.png height="200px;"]]
+
+	[[div]]
+		[[span style="font-size: 120%; color: gold;"]]★★★★★[[/span]]
+		[[size 1.5em]]**Provence**[[/size]]
+		CN : 安赛尔  /  JP :プロヴァンス
+	[[/div]]
+
+	[[table style="width: 100%; border-collapse: collapse"]]
+
+		[[row]]
+	
+			[[cell class="info-logo"]]
+				[[image https://ritokatsuga.github.io/rwi/class/Sniper_W.png style="display: block; margin-left: auto; margin-right: auto; width: 75px"]]
+			[[/cell]]
+			
+			[[cell class="info-logo"]]
+				[[image https://ritokatsuga.github.io/rwi/faksi/Siracusa_W.png style="display: block; margin-left: auto; margin-right: auto; width: 100px"]]
+			[[/cell]]
+
+		[[/row]]
+	
+	[[/table]]
+
+	**Hasil analisa**
+	[[table style="width: 100%; border-collapse: collapse"]]
+
+		[[row]]
+		
+			[!-- posisi --]
+			[[cell class="info-kiri"]]
+				Posisi
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Jarak jauh
+			[[/cell]]
+	
+		[[/row]]
+
+		[[row]]
+
+   		     	[!-- tag --]
+		        [[cell class="info-kiri"]]
+		        	//Tag//
+		        [[/cell]]
+
+		        [[cell class="info-kanan"]]
+		        	DPS
+		        [[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- archetype --]
+			[[cell class="info-kiri"]]
+				//Archetype//
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Pemanah jarak dekat
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+		
+			[!-- trait --]
+			[[cell class="info-kiri"]]
+				//Trait//
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Tembakan jarak dekat berakurasi tinggi
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+			[!-- akuisisi --]
+			[[cell class="info-kiri"]]
+				Akuisisi
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				[[[Headhunt]]], [[[Rekrutmen]]]
+			[[/cell]]
+
+		[[/row]]
+	
+	[[/table]]
+
+	**Profil operator**
+	[[table style="width: 100%; border-collapse: collapse"]]
+
+		[[row]]
+
+			[!-- pengisi suara --]
+			[[cell class="info-kiri"]]
+				Pengisi suara
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				[[[daftar-pengisi-suara | Kageyama Akari]]]
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- penggambar --]
+			[[cell class="info-kiri"]]
+				Ilustrator
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				[[[daftar-ilustrator | 渣念]]]
+			[[/cell]]
+
+		[[/row]]
+	
+	[[/table]]
+
+	**Informasi dasar**
+	[[table style="width: 100%; border-collapse: collapse"]]
+
+		[[row]]
+
+			[!-- nomor berkas --]
+			[[cell class="info-kiri"]]
+				Nomor berkas
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				SR03
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- jenis kelamin --]
+			[[cell class="info-kiri"]]
+				Jenis kelamin
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Perempuan
+			[[/cell]]
+	
+		[[/row]]
+
+		[[row]]
+	
+			[!--lama pengalaman --]
+			[[cell class="info-kiri"]]
+				Pengalaman di lapangan
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Satu tahun
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- tempat lahir --]
+			[[cell class="info-kiri"]]
+				Tempat lahir
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				[[[Siracusa]]]
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- tanggal lahir --]
+			[[cell class="info-kiri"]]
+				Tanggal lahir
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				30 November
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- ras --]
+			[[cell class="info-kiri"]]
+				Ras
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				[[[Lupo]]]
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- tinggi --]
+			[[cell class="info-kiri"]]
+				Tinggi
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				162 cm
+			[[/cell]]
+
+		[[/row]]
+	
+		[[row]]
+
+			[!-- status penyakit --]
+			[[cell class="info-kiri"]]
+				Status oripati
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Ditemukan infeksi berdasarkan pada catatan medis
+			[[/cell]]
+
+		[[/row]]
+
+	[[/table]]
+
+	**Pemeriksaan fisik**
+	[[table style="width: 100%; border-collapse: collapse"]]
+
+		[[row]]
+
+			[!-- kekuatan --]
+			[[cell class="info-kiri"]]
+				Kekuatan fisik
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Normal
+			[[/cell]]
+
+		[[/row]]
+	
+		[[row]]
+
+			[!-- mobilitas --]
+			[[cell class="info-kiri"]]
+				Mobilitas
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Terbaik
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- kelenturan --]
+			[[cell class="info-kiri"]]
+				Kelenturan fisik
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Normal
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- taktis --]
+			[[cell class="info-kiri"]]
+				Ketajaman taktis
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Standar
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- kemampuan --]
+			[[cell class="info-kiri"]]
+				Kemampuan bertempur
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Terbaik
+			[[/cell]]
+
+		[[/row]]
+
+		[[row]]
+
+			[!-- asimilasi --]
+			[[cell class="info-kiri"]]
+				Asimilasi //originum arts//
+			[[/cell]]
+
+			[[cell class="info-kanan"]]
+				Standar
+			[[/cell]]
+
+		[[/row]]
+
+	[[/table]]
+
+[[/div]]
+
+[[toc]]
+
++ Informasi Sprite
+
+[[div class="kotak-skin"]]
+
+[[html]]
+<style>
+.skin-button{
+display: block; 
+margin-right: auto;
+margin-left: auto; 
+width: 90%;
+color: white; 
+background-color: #6e6e6e;
+border-radius: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 2px;
+margin-bottom: 2px;
+border: solid 0px #aaa;
+}
+
+.skin-button:hover{
+background-color:#7a7a7a;
+}
+
+.skin-button:active{
+background-color:#595959;
+}
+
+body::after{
+position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
+content:
+url(http://prts.wiki/images/c/c4/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_1.png) 
+url(http://prts.wiki/images/9/94/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_2.png)
+url(http://prts.wiki/images/7/71/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_skin1.png);   // load images
+}
+
+span{
+font-family: 'Lato', sans-serif;
+color: #F3F3F3;
+background-color: #6e6e6e;
+border-radius: 5px;
+padding: 3px 10px 5px 10px;
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("_skin").fadeIn();
+});
+});
+</script>
+
+<table>
+<tr>
+<td style="width:90%; font-weight: bold;">
+<span id="_judul")>Sprite Dasar</span>
+<img id="_skin" src="http://prts.wiki/images/c/c4/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_1.png" style="width:500px;">
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<button onclick='
+document.getElementById("_skin").src = "http://prts.wiki/images/c/c4/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_1.png"; document.getElementById("_judul").textContent = "Sprite Dasar";' class="button skin-button">Sprite Dasar</button>
+
+<button onclick='
+document.getElementById("_skin").src = "http://prts.wiki/images/9/94/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_2.png"; document.getElementById("_judul").textContent = "Sprite Elit 2";' class="button skin-button">Sprite Elit 2</button>
+
+<button onclick='
+document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_skin1.png"; document.getElementById("_judul").textContent = "Outfit HD08";' class="button skin-button">Outfit HD08</button>
+</td>
+</tr>
+</table>
+[[/html]]
+
+[[/div]]
+ 
++ Informasi Teknis
+
+++* Jarak serangan
+
+	[!-- jarak serangan --]
+	[[div class="kotak-range"]]
+
+	[[table class="tabel-range"]]
+
+		[!-- header, tidak perlu diedit --]
+		[[row]]
+
+			[[cell class="range-header"]] Dasar [[/cell]] [[cell class="range-header"]] Elit 1 [[/cell]] [[cell class="range-header"]] Elit 2 [[/cell]]
+
+		[[/row]]
+
+		[!-- isi, penyesuaian dengan berkas --]
+		[[row]]
+
+			[[cell class="range-isi"]]
+				[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e0.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
+			[[/cell]]
+
+			[[cell class="range-isi"]]
+				[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e1.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
+			[[/cell]]
+
+			[[cell class="range-isi"]]
+				[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e2.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
+			[[/cell]]
+
+		[[/row]]
+
+	[[/table]]
+
+	[[/div]]
+
+++* Atribut
+
+	[!-- atribut --]
+	[[div class="kotak-atribut"]]
+
+		[[table]]
+
+			[!-- header, tidak perlu diedit --]
+			[[row]]
+
+				[[cell class="atribut-kiri"]] [[/cell]] [[cell class="atribut-header"]] Elit 0 [[/cell]] [[cell class="atribut-header"]] Elit 0 Maksimum [[/cell]] [[cell class="atribut-header"]] Elit 1 Maksimum [[/cell]] [[cell class="atribut-header"]] Elit 2 Maksimum [[/cell]] [[cell class="atribut-header"]] Trust Maksimum [[/cell]] 
+
+			[[/row]]
+
+			[!-- isi --]
+			[[row]]
+
+				[[cell class="atribut-kiri"]] HP [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					716
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					995
+				[[/cell]]
+				
+				[[cell class="atribut-isi"]]
+					1276
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1680
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] ATK [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					332
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					456
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					601
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					781
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					+90
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] DEF [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					81
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					117
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					156
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					215
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] RES [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					0
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					0
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					0
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					0
+				[[/cell]]
+
+				[[cell class="atribut-isi"]] 
+
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] //Redeploy// [[/cell]]
+
+				[[cell class="atribut-isi"]] 
+					70
+				[[/cell]]
+
+				[[cell class="atribut-isi"]] 
+					70
+				[[/cell]]
+
+				[[cell class="atribut-isi"]] 
+					70
+				[[/cell]]
+
+				[[cell class="atribut-isi"]] 
+					70
+				[[/cell]]
+
+				[[cell class="atribut-isi"]] 
+
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] Harga DP [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					15
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					15
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					17
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					19
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] //Block// [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+
+				[[/cell]] 
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="atribut-kiri"]] ASPD [[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1.6
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1.6
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1.6
+				[[/cell]]
+
+				[[cell class="atribut-isi"]]
+					1.6
+				[[/cell]]
+
+				[[cell class="atribut-isi"]] 
+
+				[[/cell]] 
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+
+++* Potensi
+
+	[[div class="kotak-potensi"]]
+
+		[[table]]
+		
+			[!-- potensi, yang diisi yang kanan --]
+			[[row]]
+
+				[[cell class="potensi-kiri"]] Potensi 2 [[/cell]]
+
+				[[cell class="potensi-isi"]]
+					Harga DP -1
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="potensi-kiri"]] Potensi 3 [[/cell]]
+
+				[[cell class="potensi-isi"]]
+					Waktu redeploy -4
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="potensi-kiri"]] Potensi 4 [[/cell]]
+
+				[[cell class="potensi-isi"]]
+					ATK +4
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="potensi-kiri"]] Potensi 5 [[/cell]]
+
+				[[cell class="potensi-isi"]]
+					Peningkatan Hunter's Arrow (+10% ATK)
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="potensi-kiri"]] Potensi 6 [[/cell]]
+
+				[[cell class="potensi-isi"]]
+					Harga DP -1
+				[[/cell]]
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+
+++* Promosi
+
+	[[div class="kotak-promosi"]]
+
+		[[table style="width: 100%; border-collapse: collapse"]]
+
+			[[row]]
+				
+				[!-- header --]
+				[[cell class="promosi-header-kiri"]] Elit 1 [[/cell]] [[cell class="promosi-header-kanan"]] Elit 2 [[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[!-- isi --]
+				[[cell class="promosi-kiri"]]
+					Atribut maksimum meningkat
+					Harga DP +2
+					Kemampuan baru: Prey Seeker
+					Talenta baru: Hunter's Arrow
+					Jarak serangan meningkat
+				[[/cell]]
+
+				[[cell class="promosi-kanan"]]
+					Atribut maksimum meningkat
+					Harga DP +2
+					Hunter's Arrow meningkat
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[!-- isi --]
+				[[cell class="promosi-kiri"]]
+					Elit 0 Level 50
+					20.000 LMD
+					4 Chip Sniper
+					4 Poliketon
+					3 Oriron
+				[[/cell]]
+
+				[[cell class="promosi-kanan"]]
+					Elit 1 Level 70
+					120.000 LMD
+					3 Dwichip Sniper
+					9 Gula Batu
+					7 Peranti Terintegrasi
+				[[/cell]]
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+ 
++ Skill
+
+	[[div class="kotak-skill-atas"]]
+
+		[[table]]
+
+			[[row]]
+
+				[[cell class="skill-header-gambar"]] [[image https://static.wikia.nocookie.net/mrfz/images/f/f2/Skill-Provence1.png height="64px"]] [[/cell]]
+
+				[[cell class="skill-header-nama"]]
+					Wolf's Eye
+					狼眼
+					ウルフアイ
+				[[/cell]]
+
+				[[cell class="skill-header-sifat"]]
+					[[span class="skill-sifat-abu"]] Pasif [[/span]]
+				[[/cell]] 
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+
+	[[div class="kotak-skill-tabel"]]
+
+		[[table class="skill-tabel"]]
+
+
+			[[row]]
+
+				[[cell class="skill-header"]] Level [[/cell]] [[cell class="skill-header"]] Efek [[/cell]] [[cell class="skill-header"]] SP Awal [[/cell]] [[cell class="skill-header"]] Harga SP [[/cell]] [[cell class="skill-header"]] Durasi [[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 1 [[/cell]]
+				
+				[[cell class="skill-isi-efek"]]
+					ATK +8% setiap HP target berkurang 20%
+				[[/cell]]
+				
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 2 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +9% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 3 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +10% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 4 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +12% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 5 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +13% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 6 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +14% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 7 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +16% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 1 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +19% setiap HP target berkurang 20%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 2 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +22% setiap HP target berkurang 20%
+				[[/cell]]
+				
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 3 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +25% setiap HP target berkurang 20%
+				[[/cell]]
+				
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+
+	[[div class="kotak-skill-atas"]]
+
+		[[table]]
+
+			[[row]]
+
+				[[cell class="skill-header-gambar"]] [[image https://static.wikia.nocookie.net/mrfz/images/e/e2/Skill-Provence2.png height="64px"]] [[/cell]]
+
+				[[cell class="skill-header-nama"]]
+					Prey Seeker
+					杀戮嗅觉
+					鮮血の匂い
+				[[/cell]]
+
+				[[cell class="skill-header-sifat"]] 
+					[[span class="skill-sifat-hijau"]] Pemulihan Otomatis [[/span]]
+					[[span class="skill-sifat-abu"]] Aktif Manual [[/span]] 
+				[[/cell]] 
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+
+	[[div class="kotak-skill-tabel"]]
+
+		[[table class="skill-tabel"]]
+
+			[[row]]
+
+				[[cell class="skill-header"]] Level [[/cell]] [[cell class="skill-header"]] Efek [[/cell]] [[cell class="skill-header"]] SP Awal [[/cell]] [[cell class="skill-header"]] Harga SP [[/cell]] [[cell class="skill-header"]] Durasi [[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 1 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +130%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					20s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 2 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +135%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					20s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 3 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +140%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80% 
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					20s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 4 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +145%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					25s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 5 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +150%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80% 
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					25s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 6 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +155%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					25s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 7 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +160%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 1 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +180%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					31s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 2 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +200%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80%
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					32s
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 3 [[/cell]]
+
+				[[cell class="skill-isi-efek"]]
+					ATK +220%, tetapi Serangan Normal tidak menyerang musuh target dengan HP lebih dari 80% 
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					0
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					30
+				[[/cell]]
+
+				[[cell class="skill-isi-rinci"]]
+					35s
+				[[/cell]]
+
+			[[/row]]
+
+		[[/table]]
+	 
+	[[/div]]
+
++ Talenta
+
+	[[div class="kotak-talenta"]]
+
+		**Hunter's Arrow**
+
+		**Elit 1**
+		[[div class="talenta-isi"]]
+			Memiliki 20% peluang meningkatkan ATK pada serangan saat ini menjadi 140% saat menyerang, dan peluang meningkat menjadi 50% saat musuh berada di garis terdepan.
+		[[/div]]
+
+		**Elit 2**
+		[[div class="talenta-isi"]]
+			Memiliki 20% peluang meningkatkan ATK pada serangan saat ini menjadi 180% saat menyerang, dan peluang meningkat menjadi 50% saat musuh berada di garis terdepan.
+		[[/div]]
+
+	[[/div]]
+ 
++ Skill di Base
+
+	[[div class="kotak-skillbase"]]
+
+		**Bentara Katastrofe Alfa**
+
+		[[div class="skillbase-isi"]]
+			Saat Operator ini ditugaskan di Kantor SDM, kecepatan perekrutan +30%
+
+			//didapatkan saat Elit 0//
+		[[/div]]
+
+		**Bentara Katastrofe Beta**
+
+			[[div class="skillbase-isi"]]
+				Saat Operator ini ditugaskan di Kantor SDM, kecepatan perekrutan +45%
+
+				//didapatkan setelah Elit 2//
+			[[/div]]
+
+	[[/div]]
+ 
++ Hasil Analisa Medis
+
+Hasil pemeriksaan citra dari operator ini menunjukkan garis buram yang membentuk organ dalam yang terlihat beberapa titik gelap yang tidak biasa. Biasanya partikel Originium dengan konsentrasi tinggi terdapat di dalam sirkulasi darahnya, menandakan adanya infeksi dan mengkonfirmasi bahwa dia termasuk penderita.
+
+**Kadar Originium dalam Sel Tubuh: 18%**
+	Tersebar di dalam tubuh, dan menyebabkan ekor bermutasi.
+**Densitas Kristal Originium dalam Darah: 0.3u/L**
+	Infeksi pada stadium menengah, pasien dalam kondisi stabil.
+
++ Arsip
+
+++* Profil
+
+Provence adalah seorang Bentara Katastrofe. Dia sudah pernah menampilkan kemampuan bertarung superior di bidang serangan terkoordinasi dan keahlian menembak jitu.
+
+Dia sekarang bekerja sebagai seorang penembak jitu di regu Rhodes Island, Provence juga ditugaskan untuk menginvestigasi daerah-daerah Katastrofe dan memberikan peringatan awal tentang Katastrofe yang akan datang.
+
+++* Arsip 1
+
+Di dunia para pengintai alam liar, yang beranggotakan orang-orang yang berani, mengamati perubahan cuaca untuk mengetahui kapan datangnya Katastrofe, orang-orang yang mencatat Katastrofe-katastrofe sebelumnya dan memperingatkan daerah yang akan terkena disebut dengan Bentara Katastrofe.
+
+Dibandingkan dengan rekan-rekannya yang lebih lemah, lumpuh karena efek dari Katastrofe yang mereka saksikan, Provence adalah yang paling memiliki rasa kasihan dan paling berdedikasi dengan pekerjaannya. Dia yang paling memahami dari cedera dan rasa sakit dari terpaan Katastrofe. Dan menyelamatkan jiwa-jiwa yang terdampak adalah alasan dia melakukan hal tersebut.
+
+Dalam pekerjaannya, Provence selalu memastikan rekan-rekannya dalam kondisi baik. Cara dia adalah tetap tenang dan rileks, apapun yang terjadi, jadi siapapun yang ikut bersamanya merasa nyaman dan aman. Provence memiliki pengalaman yang cukup lama hidup di alam liar, sekalipun hanya dengan sedikit bekal. Insting bertahan hidup dia sangat tajam sehingga cepat berekasi dengan tantangan yang tidak terduga dan sigap menghadapinya.
+
+++* Arsip 2
+
+Harapan terbesar Provence adalah membuat orang-orang siap menghadapi tantangan saat terjadi Katastrofe. Sebagai seorang pecinta lingkungan yang setia, dia berjuang mencegah membuang sampah sembarangan, menyokong terjaganya kelestarian sumber daya dan secara langsung menjaga lingkungan dengan tindakannya sendiri.
+
+Provence kadang tampak sibuk sendiri di bioma berbeda yang tidak berpenghuni dan Rhodes Island, dimana dia secara pribadi bersukarela untuk membersihkan dan mendaur ulang sampah di waktu luangnya. Dia juga diketahui menceramahi rekannya yang kurang sadar akan kebersihan lingkungan dengan sopan dan merinci. Hanya sedikit orang saja yang tidak tergerak hatinya karenanya.
+
+++* Arsip 3
+
+Hal ini tidak biasanya terjadi, tetapi saat semua pekerjaan telah selesai, termasuk pembersihan sampah secara sukarela, Provence menghabiskan waktunya untuk membersihkan ekornya dengan hati-hati.
+
+Jika ekornya sudah cukup halus, dia kemudian mampir ke toko untuk berbelanja hadiah yang modis untuk dirinya dan teman-temannya (termasuk pakaian-pakaian yang akan dia simpan sendiri), bermain dengan anak-anak di Rhodes Island, mencoba resep-resep makanan baru (dengan bahan yang dipetik di alam liar, tentunya), mendakan pesta bersama teman-temannya, dan melakukan hal lain yang sesuai dengan kegemarannya. Begitulah gaya hidup ideal yang dimiliki Provence.
+
+++* Arsip 4
+
+"Ada badai yang terjadi di dekat pulau. Jangan khawatir, akan aku lakukan evakuasi. Aku sudah pernah mengalami ini sebelumnya!"
+
+Sebelum Provence selesai berbicara, dia sudah bergegas mendahului ke operasi lainnya di alam liar nan jauh.
+
+Nyatanya dia selalu berada di tengah-tengah marabahaya.
+
+Dia sendiri sudah menderita karena Oripati.
+
+Pekerjaan yang sangat dia hargai ini dapat membuat perhatiannya teralih, tetapi dia tetap waspada akan kondisinya. Walaupun begitu, dia tetap optimis dalam menjalani hidupnya.
+
+Walaupun Provence akhirnya pergi bersama Dokter, hal ini membuat dia sadar akan situasi yang terjadi di sekitarnya.
+
+Untuk meringankan beban Dokter dan menjaga Rhodes Island tetap aman, Provence terus melanjutkan perjalanannya menuju ke alam yang liar di sana.
+ 
++ Rekaman Suara
+
+	[[div class="kotak-voice"]]
+
+		[[table class="voice-table"]]
+
+			[[row]]
+
+				[[cell class="voice-kiri"]] Ditugaskan sebagai asisten [[/cell]]
+
+				[[cell class="voice-tengah"]]
+					Jika kamu ingin ruanganmu dibersihkan, kamu bisa bilang kepadaku untuk membersihkannya, Dokter! 
+
+					ドクター、部屋のお掃除をするときは呼んでね～。手伝ってあげるから。
+
+					博士，如果房间卫生需要打扫的话，记得叫我~
+
+					If you need your room cleaned, you can always tell me to do it, Doctor!
+				[[/cell]]
+
+				[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="http://prts.wiki/images/7/7d/%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_%E4%BB%BB%E5%91%BD%E5%8A%A9%E7%90%86.wav" type="audio/wav">
+</audio>
+
+[[/html]]
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="voice-kiri"]] Interaksi 1 [[/cell]]
+
+				[[cell class="voice-tengah"]]
+					Kamu kelihatannya suka dengan ekorku, ya? Ekorku lembut dan tampak lucu? Mau memegangnya? Tidak ada yang punya ekor seperti ini, kau tahu...
+
+					僕のしっぽが気になるの？モフモフして可愛いでしょ？じゃあ……触らせてあげちゃおっかな～。こんなしっぽ、めったにないからね～。
+
+					我的尾巴您很在意吗？毛茸茸的，很可爱？那——要摸摸看吗？其他人身上，可没有这样的尾巴哦~
+
+					You seem really interested in my tail, huh? You say it's furry and looks cute? Well, wanna touch it? No one else has a tail like this, you know!
+				[[/cell]]
+
+				[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="voice-kiri"]] Interaksi 2 [[/cell]]
+
+				[[cell class="voice-tengah"]]
+					Air sangatlah berharga di alam liar. Sekalipun Rhodes Island tidak akan mengalami kekeringan, jangan buang-buang air, ya!
+
+					ロドスでは水の心配はないけど、荒野では貴重な資源なんだよ。ドクター、水は大切にしてね～。
+
+					荒野里水是珍贵资源呢，虽然罗德岛并不那么缺水，但还是希望博士你要节约使用哦。
+
+					Water is precious in the wild. Rhodes Island is in no danger of having a drought right now, but you still shouldn't waste water!
+				[[/cell]]
+
+				[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Interaksi 3 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Tugasku adalah mencari dan menyelamatkan orang-orang yang terluka karena dampak dari Katastrofe, walaupun terkadang hampir tidak ada yang selamat...
+
+				天災時の救助活動も僕の仕事だよ。成果を得られたことはあんまりないけどね……。
+
+				搜救遭遇天灾的人也是我的职责，虽然大多数情况下都会空手而归......
+
+				It's my duty to search for and rescue those injured in natural Catastrophes. I rarely find any survivors though...
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Interaksi setelah promosi Elit 1 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Menerima suar, menjelajahi penyimpanan mineral, dan mendaur ulang... setelah itu, tugasku selesai!
+
+				ビーコン回収、鉱床の探索、そしてリサイクルできる資源の回収。これで任務完了だよ。
+
+				信标回收、矿床勘探、然后是可利用资源回收，这样任务就完成咯~
+
+				Retrieving beacons, exploring mineral deposits, and recycling... after that, my job is done!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Interaksi setelah promosi Elit 2 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Tuan Anggur adalah temanku! Dia berguna sekali, bisa digunakan untuk segala hal! Soal asal-usulnya... eh, ya, hmmm... dimana pertama kali kami bertemu, ya? Aku tidak ingat!
+
+				僕のパートナーのグレープさん。何でもやってくれるし、とっても頼もしいんだ。知り合ったきっかけ？うーん……忘れちゃった……。
+
+				葡萄先生是我的搭档。它什么都能做，非常可靠哦。它的来历？唔......对哦，我是怎么和它认识的呢......？
+
+				Mr. Grape is my buddy! It's really handy, it can be used for so many things! As for where it came from... Uh, yeah, hmm... where did we first meet? I can't remember!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Interaksi setelah trust meningkat 1 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				A-apa yang dilakukan oleh si merah itu...? Tubuhku... tak dapat berhenti gemetaran... uh.... Dokter, bolehku peluk lenganmu? Aku merasa lebih nyaman demikian...
+
+				あ、あの赤い子は何なの……僕……震えが止まらない……。あの、腕を借りてもいい……？そうすれば……安心できるから……。
+
+				那、那个红色的孩子是怎么回事......我......颤抖，止不住呢......那个，博士的手臂能稍稍借下吗......？这样的话，我会安心很多的......
+
+				W-what's that red one doing...? I... can't stop trembling... uh... Doctor, can you lend me your arm? I'd feel much safer that way...
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Interaksi setelah trust meningkat 2 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Sukarelawan yang membantu penangangan pada saat Katastrofe kerap kali mengalami mutasi. Bagiku... mutasi apa yang kumiliki? Nah, lebih baik kau jangan mengetahuinya. Semakin kau tahu, semakin berbahaya bagimu, Dokter!
+
+				野外で活動してる天災の研究者ってね、みんな多かれ少なかれ身体に異変をきたすんだ。僕はどうなのかって？ドクター、好奇心はなんとかをも殺すってことわざがあるらしいよ？
+
+				一般来说，野外的天灾工作者都会产生这样各种各样的异变。我有什么变化？知道得越多，就离危险越近哦，博士。
+
+				Those who do Catastrophe relief work often develop all kinds of mutations. As for me... what mutation do I have? Well, it's better not to ask. The more you know, the more dangerous it gets for you, Doctor!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Interaksi setelah trust meningkat 3 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Sukarelawan penanganan Katastrofe di alam bebas... biasanya tewas di luar sana. Tidak perlu mengkhawatirkanku! Aku cukup senang bisa singgah di Rhodes Island.
+
+				荒野で働く天災の研究者は……みんなろくな最期を迎えられないんだ。あ、でも僕のことは心配しなくていいよ。ロドスで少しでも癒されることができたら、僕は十分に……幸せだから。
+
+				荒野中的天灾工作者......一般都无法善终。不用担心我哦，能在罗德岛稍事休息，我已经感到......很幸福了。
+
+				Catastrophe relief workers in the wilderness... usually die out there. No need to worry about me, though! I'm already very happy to have a chance to rest at Rhodes Island.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Menganggur [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Kamu enggak boleh tidur di sini... itu membuatmu lengah saat musuh menyerang!
+
+				またこんな場所で寝転がって、もう……ホント無防備なんだから……。
+
+				怎么又睡在这种地方，真是的......总是一副毫无防备的样子。
+
+				You can't fall asleep here... it leaves you open to enemy attacks!	
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Perkenalan [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Aku Provence, sukarelawan pengananan bencana yang biasa saja. Hmm, mengapa kamu melihatku seperti itu? Tertarik dengan ekorku?
+
+				僕の名前はプロヴァンス、ごくありふれた天災の研究者だよ。そんなにじーっと見つめてどうしたの？僕のしっぽのことが気になるの～？
+
+				我是普罗旺斯，是个普通的天灾工作者~您这样盯着我看，是在意我的尾巴吗~？
+
+				I'm Provence, your average disaster relief worker. Hmm, why are you staring at me like that? Interested in my tail?
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Menerima //Battle Records// [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Jadi... inilah yang membuatku semakin dekat dengan gambaran yang kau inginkan dariku?
+
+				これでドクターの理想にもっと近づけたかな？
+
+				这样的话，就更接近您心目中我应有的样子了吗？
+
+				So... does this bring me closer to what you imagined I should be?	
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dipromosikan ke Elit 1 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Senangnya bekerja sama dengan Dokter!
+
+				ドクターとの共同作業は楽しいね～。
+
+				和博士一起工作，很愉快啊~
+
+				It's fun working with Doctor!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dipromosikan ke Elit 2 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Aku merasakan badai akan menerjang Rhodes Island! Namun tenang saja, aku ahlinya dalam pencegahan Katastrofe!
+
+				ロドスの近くに竜巻が発生しそうな兆候が出てる――大丈夫だよ！避難はこの僕に任せておいて！こう見えて僕、避難のプロだから！
+
+				罗德岛附近出现了风暴的征兆——不用担心，组织避难就交给我吧！我可是这方面的专家！
+
+				I sense a storm approaching Rhodes Island. But don't worry, I'm an expert at Catastrophe prevention!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dimasukkan ke dalam regu [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Siapa yang akan bekerja sama denganku kali ini?
+
+				今回は誰とチームを組むのかな？
+
+				这次和谁组队呢？
+
+				Who will I be teaming up with this time?
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dijadikan sebagai ketua regu [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Semuanya akan baik-baik saja!
+
+				絶対うまくいくよ！
+
+				不会有任何问题的。
+
+				Everything will be fine.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Memulai operasi [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Tugasku adalah membuat semua orang aman.
+
+				みんなを無事に連れて帰るのが僕の仕事だよ。
+
+				我的工作是把大家平安带回来。
+
+				My job is to bring everyone home safely.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Musuh mulai datang [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Aku anggap bencana Katastrofe dan musuh-musuh itu adalah sesuatu yang sama!
+
+				天災も敵も、僕らの憎むべき相手だ……！
+
+				无论天灾还是敌人，都是我痛恨的对手！
+
+				I despise natural Catastrophes and enemies all the same!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dipilih 1 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Apakah sekarang giliranku?
+
+				僕の出番かな？
+
+				该我出场了吗？
+
+				Is it my turn to come out?
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dipilih 2 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Kondisi yang mantap!
+
+				いい調子だよ！
+
+				状态绝佳！
+
+				Peak condition!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dikerahkan 1 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Mulailah dengan tembakan peringatan...
+
+				まずは威嚇射撃からいくよ～。
+
+				先从警告射击开始~
+
+				Let's start by firing a warning shot...
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Dikerahkan 2 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Amunisi siap! Aku siap!
+
+				装填完了！いつでもいけるよ。
+
+				弩箭装填完毕！随时都可以！
+
+				Arrows loaded. I'm ready to go!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Skill aktif 1 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Kuperingatkan kalian! Penanganan Katastrofe dimulai dari... sekarang!
+					
+				警告はしたよ！災害処理、開始！
+
+				已经警告过了哦！灾害处理，现在开始！
+
+				I already warned y'all! Catastrophe relief starts... now!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Skill aktif 2 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Temukan celah pada musuh!
+					
+				弱点、丸見えだよ！
+
+				弱点洞察！
+
+				Pinpoint enemy weakness!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Skill aktif 3 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Akan kualihkan perhatian musuh!
+					
+				攪乱するよ～。
+
+				我来分散敌人的注意力。
+
+				I'll distract the enemy.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Skill aktif 4 [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Alam bebas tentu saja memiliki aturannya sendiri!
+					
+				荒野には荒野のルールがあるからね！
+
+				荒野有它自己的准则！
+
+				The wilderness has its own rules.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Operasi berhasil dengan 4 bintang [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Dibandingkan dengan bencana Katastrofe, musuh-musuh tidak ada apa-apanya.
+					
+				天災よりもずーっと弱い敵たちだったね。
+
+				与天灾的破坏相比，敌人还真是脆弱呢。
+
+				Compared to natural Catastrophes, these enemies are really powerless.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Operasi berhasil dengan 3 bintang [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Laporan status bencana: tiada kerusakan.
+					
+				被害状況確認。うん、被害なし～。
+
+				灾害评估报告，损伤是零~
+
+				Disaster assessment report: we received zero damage!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Operasi berhasil dengan 2 bintang [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Semuanya bekerja dengan keras. Jangan patah semangat meskipun kita terkena imbasnya!
+					
+				みんなお疲れ様！すこし被害が出ちゃったみたいだけど、気を落とさないで。
+
+				大家都辛苦了，即便稍有损害也不能气馁哦。
+
+				Everyone worked hard. Let's not be discouraged even if we suffered some damage!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Operasi gagal [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Duh... perkiraaanku salah. Betapa memalukannya ini bagi karirku!
+					
+				うう……読みが外れちゃった……プロとして失格だね……！
+
+				呃......评估失误了，真是我职业生涯的污点......！
+
+				Aw... my assessment was off. Consider this a shameful moment in my career!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Ditugaskan di fasilitas RIIC [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Senangnya memiliki tempat untuk beristirahat...
+					
+				ゆっくり休める部屋だといいな～。
+
+				如果是能好好休息的房间就好了~
+
+				It'd be nice to have a room to rest in!
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Disentuh [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Eh, Dokter?
+					
+				わわっ、ドクター？
+
+				啊啊，博士？
+
+				Oh, Doctor?
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Disentuh (Trust) [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Ekorku ini sangat lembut, sangat lembut ♪
+					
+				僕のしっぽはもっふもふ～。もっふもふ～♪
+
+				我的大尾巴毛绒绒~毛绒绒~♪
+
+				My tail is fluffy fluffy♪
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Judul [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Arknights
+					
+				アークナイツ。
+
+				明日方舟。
+
+				Arknights.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+			[[cell class="voice-kiri"]] Salam [[/cell]]
+
+			[[cell class="voice-tengah"]]
+				Ah, Dokter! Selamat pagi.
+					
+				あ～ドクターおはよー。
+
+				啊，博士早上好~
+
+				Oh, good morning, Doctor.
+			[[/cell]]
+
+			[[cell class="voice-kanan"]]
+[[html]]
+
+<audio controls>
+<source src="null" type="audio/wav">
+</audio>
+
+[[/html]]
+			[[/cell]]
+
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+ 
++ Rekaman Operator
+
+[[div class="kotak-op-records"]]
+
+[[span class="kecil-op-records"]] Promosikan hingga Elit 2 Level 1 dan tingkatkan trust hingga 50% [[/span]]
+	
+Hidup tentu saja berharga, sama berharganya dengan dirimu
+
+[[[Rekaman-Operator:Provence | Baca cerita]]]
+[[/div]]
+ 
++ Simulasi Paradoks
+
+	[[div class="kotak-sim-paradoks"]]
+
+		[[div class="judul-sim-paradoks"]]
+
+			[[span class="judul-sim-paradoks-id"]]
+				Jangan Biarkan Dirimu Membeku
+			[[/span]]
+
+			[[span class="judul-sim-paradoks-cn"]]
+				别让自己冻僵
+			[[/span]]
+
+		[[/div]]
+
+		[[span class="kecil-sim-paradoks"]] Promosikan hingga Elit 2 Level 1 dan tingkatkan trust hingga 50% [[/span]]
+
+		Provence familiar dengan hampir semua jenis medan di lapangan dan cara untuk bertahan hidup. Simulasi ini dirancang untuk menantang Provence, berdasarkan ciri-ciri lingkungan yang ekstrem.
+		Amati musuh yang menghampirimu. Perhatikan waktu dan penempatannya, prioritaskan untuk menggugurkan ancaman utama, dan hindarkan musuh yang akan menyerang rekanmu.
+		Provence tahu apapun medan di lapangan yang ditemui, kamu bisa bertahan hidup jika kamu cakap.
+
+[[/div]]
