@@ -145,6 +145,23 @@ vertical-align:center;
 text-align:left;
 }
 
+.potensi-token-judul{
+font-weight: bold;
+vertical-align:center;
+text-align:center;
+font-size: 100%;
+}
+
+.potensi-token{
+background-color: #6e6e6e;
+width: 50%;
+padding: 5px;
+vertical-align:center;
+text-align:center;
+border-radius: 5px;
+margin:auto;
+}
+
 .kotak-promosi{
 width: 500px;
 border: 1px solid #999;
@@ -168,6 +185,18 @@ padding: 5px;
 vertical-align:top;
 text-align:left;
 padding: 10px 10px 10px 10px;
+}
+
+.promosi-req-judul{
+font-weight: bold;
+vertical-align:center;
+text-align:center;
+font-size: 100%;
+}
+
+.promosi-req-judul-center{
+vertical-align:center;
+text-align:center;
 }
 
 .promosi-header-kiri{
@@ -265,13 +294,25 @@ font-family:'Source Code Pro', monospace;
 font-size: 80%;
 }
 
+.range-skill-header{
+text-align:center;
+font-weight: bold;
+border-radius: 5px;
+background-color: #6e6e6e;
+padding: 5px 5px 5px 5px;
+border: 1px solid #434343;
+}
+
+.range-skill-isi{
+padding: 5px 5px 5px 5px;
+}
+
 .kotak-skill-tabel{
 width: 800px;
 border: 1px solid #999;
 border-radius: 5px;
 padding: 10px 10px 10px 10px;
 }
-
 
 .skill-tabel{
 vertical-align:center;
@@ -313,6 +354,27 @@ padding: 5px;
 font-weight: bold;
 background-color: #434343;
 color: #F3F3F3;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+vertical-align:center;
+text-align:center;
+}
+
+.kotak-skill-upgrade{
+width: 800px;
+border: 1px solid #999;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+}
+
+.skill-upgrade-tabel{
+vertical-align:center;
+text-align:center;
+}
+
+.skill-upgrade-isi{
+width: 30%;
+padding: 5px;
 border-radius: 5px;
 padding: 10px 10px 10px 10px;
 vertical-align:center;
@@ -829,42 +891,40 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 
 ++* Jarak serangan
 
-	[!-- jarak serangan --]
 	[[div class="kotak-range"]]
 
-	[[table class="tabel-range"]]
+		[[table class="tabel-range"]]
 
-		[!-- header, tidak perlu diedit --]
-		[[row]]
+			[!-- header, tidak perlu diedit --]
+			[[row]]
 
-			[[cell class="range-header"]] Dasar [[/cell]] [[cell class="range-header"]] Elit 1 [[/cell]] [[cell class="range-header"]] Elit 2 [[/cell]]
+				[[cell class="range-header"]] Dasar [[/cell]] [[cell class="range-header"]] Elit 1 [[/cell]] [[cell class="range-header"]] Elit 2 [[/cell]]
 
-		[[/row]]
+			[[/row]]
 
-		[!-- isi, penyesuaian dengan berkas --]
-		[[row]]
+			[!-- isi, penyesuaian dengan berkas --]
+			[[row]]
 
-			[[cell class="range-isi"]]
-				[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e0.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
-			[[/cell]]
+				[[cell class="range-isi"]]
+					[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e0.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
+				[[/cell]]
 
-			[[cell class="range-isi"]]
-				[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e1.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
-			[[/cell]]
+				[[cell class="range-isi"]]
+					[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e1.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
+				[[/cell]]
 
-			[[cell class="range-isi"]]
-				[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e2.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
-			[[/cell]]
+				[[cell class="range-isi"]]
+					[[image https://ritokatsuga.github.io/rwi/devtemp/prove_range_e2.png style="display: block; margin-left: auto; margin-right: auto; width: 36px"]]
+				[[/cell]]
 
-		[[/row]]
+			[[/row]]
 
-	[[/table]]
+		[[/table]]
 
 	[[/div]]
 
 ++* Atribut
 
-	[!-- atribut --]
 	[[div class="kotak-atribut"]]
 
 		[[table]]
@@ -1147,6 +1207,16 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 			[[/row]]
 
 		[[/table]]
+		
+		[[span class="potensi-token-judul"]] Token yang dibutuhkan [[/span]]
+
+		[[div class="potensi-token"]]
+			
+			**5 Token Provence**
+			atau
+			**20 Token Sniper Epik**
+			
+		[[/div]]
 
 	[[/div]]
 
@@ -1154,7 +1224,7 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 
 	[[div class="kotak-promosi"]]
 
-		[[table style="width: 100%; border-collapse: collapse"]]
+		[[table style="width: 100%; border-collapse: collapse;"]]
 
 			[[row]]
 				
@@ -1181,7 +1251,15 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 				[[/cell]]
 
 			[[/row]]
-
+			
+			[[row]]
+			
+				[[cell colspan="2" class="promosi-req-judul-center"]]
+					[[span class="promosi-req-judul"]] Material yang dibutuhkan [[/span]]
+				[[/cell]]
+				
+			[[/row]]
+		
 			[[row]]
 
 				[!-- isi --]
@@ -1208,6 +1286,8 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 	[[/div]]
  
 + Skill
+
+++* Daftar Skill
 
 	[[div class="kotak-skill-atas"]]
 
@@ -1236,7 +1316,6 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 	[[div class="kotak-skill-tabel"]]
 
 		[[table class="skill-tabel"]]
-
 
 			[[row]]
 
@@ -1502,7 +1581,7 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 				[[cell class="skill-header"]] Level [[/cell]] [[cell class="skill-header"]] Efek [[/cell]] [[cell class="skill-header"]] SP Awal [[/cell]] [[cell class="skill-header"]] Harga SP [[/cell]] [[cell class="skill-header"]] Durasi [[/cell]]
 
 			[[/row]]
-
+			
 			[[row]]
 
 				[[cell class="skill-kiri"]] Skill Level 1 [[/cell]]
@@ -1727,6 +1806,209 @@ document.getElementById("_skin").src = "http://prts.wiki/images/7/71/%E7%AB%8B%E
 	 
 	[[/div]]
 
+
+++* Pemutakhiran Skill
+
+	[[div class="kotak-skill-upgrade"]]
+
+		[[table class="skill-upgrade-tabel"]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 2 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					4 Rangkuman Skill 1
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 3 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					4 Rangkuman Skill 1
+					5 Diketon
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 4 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					6 Rangkuman Skill 2
+					2 Perangkat
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 5 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					6 Rangkuman Skill 2
+					8 Orirock
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 6 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					6 Rangkuman Skill 2
+					6 Perangkat Terintegrasi
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Skill Level 7 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					6 Rangkuman Skill 3
+					3 Loxic Kohl
+					4 Aketon
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 1 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					Skill 1
+					
+					5 Rangkuman Skill 3
+					3 Mangan Trihidrat
+					2 Perangkat Terintegrasi
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					Skill 2
+					
+					5 Rangkuman Skill 3
+					3 Batu Asah Pentahidrat
+					4 Loxic Kohl
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 2 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					Skill 1
+					
+					6 Rangkuman Skill 3
+					3 RMA70-24
+					5 Mangan Pentahidrat
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					Skill 2
+					
+					5 Rangkuman Skill 3
+					3 Orirock Terkonsentrat
+					6 Batu Asah Pentahidrat
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+			[[/row]]
+			
+			[[row]]
+
+				[[cell class="skill-kiri"]] Mastery 3 [[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					Skill 1
+					
+					10 Rangkuman Skill 3
+					4 Preparat Polimerisasi
+					4 Bongkahan Gula
+				[[/cell]]
+				
+				[[cell class="skill-upgrade-isi"]]
+					Skill 2
+					
+					10 Rangkuman Skill 3
+					4 Nanoflake Bipolar
+					4 Orircok Terkonsentrat
+				[[/cell]]
+
+				[[cell class="skill-upgrade-isi"]]
+					-
+				[[/cell]]
+				
+			[[/row]]
+
+		[[/table]]
+
+	[[/div]]
+	
 + Talenta
 
 	[[div class="kotak-talenta"]]
@@ -2523,7 +2805,7 @@ Untuk meringankan beban Dokter dan menjaga Rhodes Island tetap aman, Provence te
 <source src="null" type="audio/wav">
 </audio>
 
-[[/html]]]
+[[/html]]
 			[[/cell]]
 
 			[[/row]]
@@ -2756,15 +3038,8 @@ Hidup tentu saja berharga, sama berharganya dengan dirimu
 	[[div class="kotak-sim-paradoks"]]
 
 		[[div class="judul-sim-paradoks"]]
-
-			[[span class="judul-sim-paradoks-id"]]
-				Jangan Biarkan Dirimu Membeku
-			[[/span]]
-
-			[[span class="judul-sim-paradoks-cn"]]
-				别让自己冻僵
-			[[/span]]
-
+			[[span class="judul-sim-paradoks-id"]] Jangan Biarkan Dirimu Membeku [[/span]]
+			[[span class="judul-sim-paradoks-cn"]] 别让自己冻僵 [[/span]]
 		[[/div]]
 
 		[[span class="kecil-sim-paradoks"]] Promosikan hingga Elit 2 Level 1 dan tingkatkan trust hingga 50% [[/span]]
