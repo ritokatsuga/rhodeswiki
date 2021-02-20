@@ -1,2 +1,2 @@
 # Repositori Rhodes Wiki Indonesia
-http://rhodesid.wikidot.com/
+http://rhodes.wikidot.com/
