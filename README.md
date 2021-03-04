@@ -1,2 +1,2 @@
-# Repositori Rhodes Wiki Indonesia
-http://rhodes.wikidot.com/
+# Repositori Rhodes Wiki
+https://rhodeswiki.miraheze.org/
